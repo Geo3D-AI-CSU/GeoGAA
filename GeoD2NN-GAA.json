@@ -1,0 +1,20 @@
+[
+    {
+        "epoch": 300,
+        "lr": 0.01,
+        "hidden_channels": 64,
+        "gat_heads": 2,
+        "num_classes": 13,
+        "min_values": [-9999, 0, 1, 2, 3, 4],
+        "max_values": [0, 1, 2, 3, 4, -9999],
+        "factor": 1,
+        "node_file": "./Data/combined_mesh.node",
+        "ele_file": "./Data/combined_mesh.ele",
+        "vtk_file": "./Data/F1.vtk",
+        "dropout": 0.1,
+        "is_gradient": 0,
+        "lr_decay": 0.8,
+        "train_ratio": 0.8,
+        "result_dir": "0"
+    }
+]
